@@ -844,6 +844,9 @@ a {
     color: #333333;
     text-align: center;
     padding: 18px 0 20px;
+    &:hover {
+      cursor: pointer;
+    }
   }
   &__answer {
     font-size: 1.4rem;
@@ -1202,6 +1205,9 @@ a {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     padding: 8px 0 9px;
     margin: 0 auto;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 .end-message {
