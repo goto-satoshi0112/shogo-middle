@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ユアコーディング">
+  <meta name="robots" content="noindex">
+  <title>ユアコーディング</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <!-- webフォント -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- fontawesome -->
+  <!-- <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet"> -->
+  <!-- リセットcss -->
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="main.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__left">
+        <img src="img/logo.png" alt="ユアコーディング" class="header__logo">
+        <h1 class="header__title">ユアコーディング</h1>
+      </div>
+      <nav class="header__center">
+        <ul class="header__list">
+          <li class="header__menu"><a href="#features" class="header__link"> 特徴</a></li>
+          <li class="header__menu"><a href="#price" class="header__link">価格</a></li>
+          <li class="header__menu"><a href="#contact" class="header__link">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="common--button">お問い合わせ</a>
+      <a href="#" class="common--button sp-only" id="button">MENU</a>
+    </div>
+    <nav class="sp--nav">
+      <ul class="sp--nav__list">
+        <li class="sp--nav__menu"><a href="#features" class="sp--nav__link"> 特徴</a></li>
+        <li class="sp--nav__menu"><a href="#price" class="sp--nav__link">価格</a></li>
+        <li class="sp--nav__menu"><a href="#contact" class="sp--nav__link">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="fv">
+      <div class="fv__container">
+        <h2 class="fv__title">コーディングの手間を<br>最小に、デザインに注力<br>する助けに</h2>
+        <p class="fv__message">ユアコーディングはコーディングに<br>特化したフリーランス<br>デザインに注力されたい方の<br>助けになります</p>
+        <a href="" class="common--button">お問い合わせ</a>
+      </div>
+      <img src="img/top.png" alt="マネージャー" class="fv__image">
+      <div class="fv__circle"></div>
+    </section>
+
+    <section class="features" id="features" data-aos="fade-up">
+      <h2 class="features__title">ユアコーディング<br class="sp-only">3つの特徴</h2>
+      <p class="features__subTitle">FEATURES</p>
+      <h3 class="features__menu menu1">高速コーディング</h3>
+      <div class="features__container container1" data-aos="fade-up">
+        <img src="img/features1.png" alt="" class="features__image image1">
+        <div class="features__wrapper wrapper1">
+          <h4 class="features__content content1">コーディングに特化したフリーランスのため、<br class="pc-only">スピード感を持った開発が可能。</h4>
+          <p class="features__description desc1">
+            開発は常にスピードとの勝負です。<br>ユアコーディングはコーディングに特化しているため,<br class="pc-only">素早く納品することで、クライアントがデザインに注力<br
+              class="pc-only">する助けとなります。</p>
+        </div>
+      </div>
+      <h3 class="features__menu menu2" data-aos="fade-up">高品質</h3>
+      <div class="features__container container2" data-aos="fade-up">
+        <img src="img/features2.png" alt="" class="features__image image2">
+        <div class="features__wrapper wrapper2">
+          <h4 class="features__content content2">正しいマークアップで、<br class="pc-only">内部SEOに強いコーディングを<br>デフォルトで行います。</h4>
+          <p class="features__description desc2">
+            ユアコーディングでは、「予測しやすい」「再利用しやすい」<br class="pc-only">「保守しやすい」「拡張しやすい」と言った設計をもとに<br
+              class="pc-only">きちんとコーディングを行うため、納品後も安心です。</p>
+        </div>
+      </div>
+      <h3 class="features__menu menu3" data-aos="fade-up">迅速なレスポンス</h3>
+      <div class="features__container container3" data-aos="fade-up">
+        <img src="img/features3.png" alt="" class="features__image image3">
+        <div class="features__wrapper wrapper3">
+          <h4 class="features__content content3">原則いただいたメッセージは、<br class="pc-only">業務時間内であれば6時間以内に<br
+              class="pc-only">お返しいたします。</h4>
+          <p class="features__description desc3">
+            連絡を返さないフリーランスが多い中、<br class="pc-only">ユアコーディングでは定期的な進捗報告など、<br class="pc-only">社会人としての基本を踏まえて仕事を行なっております。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="price" id="price" data-aos="fade-up">
+      <h2 class="price__title">価格</h2>
+      <p class="price__subTitle">PRICE</p>
+      <table class="price__table" data-aos="fade-up">
+        <tr>
+          <td class="price__menu">HTMLコーディング<br class="not-pc">トップページ</td>
+          <td class="price__tag">30.000円〜</td>
+        </tr>
+        <tr>
+          <td class="price__menu">HTMLコーディング<br class="not-pc">下層1ページ</td>
+          <td class="price__tag">10.000円〜</td>
+        </tr>
+        <tr>
+          <td class="price__menu">HTML+WordPress<br class="not-pc">トップページ</td>
+          <td class="price__tag">55.000円〜</td>
+        </tr>
+        <tr>
+          <td class="price__menu">HTML+WordPress<br class="not-pc">下層1ページ</td>
+          <td class="price__tag">15.000円〜</td>
+        </tr>
+      </table>
+      <p class="price__note">＊詳細な価格はページや仕様によって異なります</p>
+    </section>
+
+    <section class="faq" data-aos="fade-up">
+      <h2 class="faq__title">よくある質問</h2>
+      <p class="faq__subTitle">FAQ</p>
+      <ul class="faq__menu">
+        <li class="faq__question question1 faq__acordion-js">デザインから一貫してお願いすることは可能でしょうか</li>
+        <li class="faq__answer answer1 acordion-js open">
+          ユアコーディングはコーディングに特化したサービスですので、デザインからお受けすることは基本的にありません。<br>ただデザインを行う際は提携しているデザイナーと連携して対応させていただきますので、別途ご連絡ください。
+        </li>
+        <li class="faq__question question2 faq__acordion-js">WordPressのカスタマイズをお願いすることも<br class="sp-only">可能でしょうか？</li>
+        <li class="faq__answer answer2 acordion-js close">可能です。ただECサイトなどの場合は構築難易度や工数の関係で綿密にヒアリングさせていただきたく思います。</li>
+        <li class="faq__question question3 faq__acordion-js">コーディングのスピード感が知りたい</li>
+        <li class="faq__answer answer3 acordion-js close">
+          HTMLレスポンシブ込み5ページで1週間、10ページで2週間、WordPressサイト5ページで2週間、10ページで3週間が目安になります。</li>
+      </ul>
+    </section>
+
+    <section class="blog" data-aos="fade-up">
+      <h2 class="blog__title">ブログ</h2>
+      <p class="blog__subTitle">BLOG</p>
+      <div class="blog__cards">
+        <figure class="blog__card card1">
+          <img src="img/card1.png" alt="" class="blog__image image1">
+          <p class="blog__content content1">サイトをリニューアルオープンしました。</p>
+          <p class="blog__date date1">2020.01.23</p>
+        </figure>
+        <figure class="blog__card card2">
+          <img src="img/card2.png" alt="" class="blog__image image2">
+          <p class="blog__content content2">WebサイトでSEO内部施策に適したコーディングでどれぐらいサイトが早くなるのか検証してみました</p>
+          <p class="blog__date date2">2020.01.24</p>
+        </figure>
+        <figure class="blog__card card3">
+          <img src="img/card3.png" alt="" class="blog__image image3">
+          <p class="blog__content content3">ユアコーディングではデザイナーの方を広く募集しています。</p>
+          <p class="blog__date date3">2020.01.25</p>
+        </figure>
+      </div>
+    </section>
+
+    <section class="works" data-aos="fade-up">
+      <h2 class="works__title">制作実績</h2>
+      <p class="works__subTitle">WORKS</p>
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="img/works1.png" alt="" class="slide__image">
+            <p class="slide__cuption">コーディングカンファレンスのイベントLPの制作を行いました！</p>
+            <p class="slide__author">採用技術：jQuery,<br>WordPress 実装期間：4週間<br>担当コーダー：石井</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/works2.png" alt="" class="slide__image">
+            <p class="slide__cuption">株式会社サンプル様採用サイトのコーディングを行いました！</p>
+            <p class="slide__author">採用技術：jQuery,<br>Bootstrap4 実装期間：2週間<br>担当コーダー：石井</p>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/works3.png" alt="" class="slide__image">
+            <p class="slide__cuption">株式会社サンプル様通販サイトのコーデ ィングを行いました！</p>
+            <p class="slide__author">採用技術：jQuery,<br>Bootstrap4 実装期間：6週間<br>担当コーダー：石井</p>
+          </div>
+          ...
+        </div>
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+    </section>
+
+    <section class="contact" id="contact" data-aos="fade-up">
+      <h2 class="contact__title">お問い合わせ</h2>
+      <p class="contact__subTitle">CONTACT</p>
+      <p class="contact__message">コーディングの人出が足りないとき、<br>あなたの力になります</p>
+      <form class="contact__wrapper" id="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeCV226-n2_DsVeMLUhEoMTloi5qlQheSTh_TNYbhoykTAONQ/formResponse">
+        <div class="contact__box">
+          <p class="contact__name">お名前</p>
+          <label for="" class="contact__label">必須</label>
+        </div>
+        <input type="text" class="contact__form" name="entry.265603992">
+        <div class="contact__box">
+          <p class="contact__name">メールアドレス</p>
+          <label for="" class="contact__label">必須</label>
+        </div>
+        <input type="email" class="contact__form" name="entry.278105296">
+        <div class="contact__box">
+          <p class="contact__name">お問い合わせ内容</p>
+          <label for="" class="contact__label">必須</label>
+        </div>
+        <input type="text" class="contact__form large" name="entry.1155132052">
+        <div class="contact__check">
+          <input type="checkbox" name="" id="privacyCheck" class="contact__checkbox">
+          <p class="contact__pp">プライバシーポリシーに同意する</p>
+        </div>
+        <button class="contact__button" type="submit" id="js-submit" disabled>送信する</button>
+        <p class="end-message">お問い合わせありがとうございました</p>
+        <p class="false-message">送信失敗です</p>
+      </form>
+    </section>
+
+    <section class="footer">
+      <h3 class="footer__title">ユアコーディング</h3>
+      <div class="footer__content">
+        <a class="footer__pp">プライバシーポリシー</a>
+        <a class="footer__row">個人商取引法に基づく表記</a>
+      </div>
+      <p class="footer__copyright">©ユアコーディング, All Rights Reserved.</p>
+    </section>
+
+
+  </main>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    let mySwiper = new Swiper('.swiper-container', {
+      // 以下にオプションを設定
+      loop: true, //最後に達したら先頭に戻る
+      slidesPerView: 1.5,
+      spaceBetween: 20,
+      breakpoints: {
+        768: {
+          slidesPerView: 3.5,
+          spaceBetween: 50
+        }
+      },
+      initialSlide: 2,
+      centeredSlides: true,
+      freeMode: true,
+      autoplay: {
+        delay: 5000,
+      },
+      //ページネーション表示の設定
+      pagination: {
+        el: '.swiper-pagination', //ページネーションの要素
+        type: 'bullets', //ページネーションの種類
+        clickable: true, //クリックに反応させる
+      },
+
+      //ナビゲーションボタン（矢印）表示の設定
+      navigation: {
+        nextEl: '.swiper-button-next', //「次へボタン」要素の指定
+        prevEl: '.swiper-button-prev', //「前へボタン」要素の指定
+      },
+
+      //スクロールバー表示の設定
+      // scrollbar: {
+      //   el: '.swiper-scrollbar', //要素の指定
+      // },
+    })
+  </script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+html {
+  font-size: 10px;
+}
+
+.thanks {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #05a5fa 0%, #63fbd7 100%, #67ffd6 100%);
+  position: relative;
+}
+.thanks__wrapper {
+  /* width: 100%; */
+  /* height: 100%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.thanks__image {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+.thanks__message {
+  font-size: 2.4rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.6;
+}
